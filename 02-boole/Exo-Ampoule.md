@@ -1,4 +1,4 @@
-# Etats de la boite de concerve 
+# Etats de la boite de conserve 
 
 la boite est pleine et fermée
 
