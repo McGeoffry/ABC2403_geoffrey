@@ -47,14 +47,14 @@ Le véhicule a l'interrupteur du plafonnier appuyé
 # II.La table de vérité
 
 pd pg i L
- 0 0  0 0
- 0 1  0 1
- 1 0  0 1
- 0 0  1 1
- 1 1  0 1
- 1 1  1 1
- 0 1  1 1
- 1 0  1 1
+ 0|0 |0|0|
+ 0|1 |0|1|
+ 1|0 |0|1|
+ 0|0 |1|1|
+ 1|1 |0|1|
+ 1|1 |1|1|
+ 0|1 |1|1|
+ 1|0 |1|1|
 
 # L'expression booléenne simplifiée
 
