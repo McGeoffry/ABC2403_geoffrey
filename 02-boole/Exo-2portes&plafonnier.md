@@ -83,7 +83,7 @@ Le véhicule a l'interrupteur du plafonnier appuyé
  # IIb.La table de vérité (Correction)
 
 | Entrée | Entrée | Entrée |  | Sortie |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | P2 | P3 | P4 | = | P1 |
 | 1 | 1 | 1 | = | 1 | 
 | 0 | 0 | 0 | = | 0 |
