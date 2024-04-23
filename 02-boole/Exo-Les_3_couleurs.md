@@ -35,3 +35,15 @@ Cr est de type "très claire" si les 2 couleurs additionnelles sont blanches. Le
 P1 est `VRAI` si P3 est `VRAI` et si P4 est `VRAI`
 
 `P1 = P3 . P4`
+
+### Algorithme simplifié
+
+VARIABLES
+P1 est BOOLEEN
+P3 est BOOLEEN
+P4 est BOOLEEN
+
+TRAITEMENT
+
+SI P est `VRAI` ET P4 est `VRA ALORS
+Ecrire 'La couleur est très claire
