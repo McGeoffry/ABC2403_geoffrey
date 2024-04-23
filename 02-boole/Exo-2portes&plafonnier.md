@@ -8,8 +8,7 @@ Présentez:
 
 •	L'expression booléenne simplifiée
 
-# I.Propositions
-
+# Ia.Propositions
 
 ## Proposition 1
 
@@ -61,10 +60,17 @@ Le véhicule a les 2 portes avant ouvertes
 
 Le véhicule a l'interrupteur du plafonnier appuyé
 
-# II.La table de vérité
+## Ib.Propositions (Correction)
+
+- P1 = La lumière est allumé
+- P2 = Porte droite ouverte
+- P3 = Porte gauche ouverte
+- p4 = Iterrupteur appuyé
+
+# IIa.La table de vérité
 
 | pd | pg | i | L |
-| --- | --- | --- | ---- |
+| --- | --- | --- | --- |
  0|0 |0|0|
  0|1 |0|1|
  1|0 |0|1|
@@ -74,7 +80,26 @@ Le véhicule a l'interrupteur du plafonnier appuyé
  0|1 |1|1|
  1|0 |1|1|
 
-# L'expression booléenne simplifiée
+ # IIb.La table de vérité (Correction)
+
+| Entrée | Entrée | Entrée |  | Sortie |
+| --- | --- | --- | --- |
+| P2 | P3 | P4 | = | P1 |
+| 1 | 1 | 1 | = | 1 | 
+| 0 | 0 | 0 | = | 0 |
+| 1 | 0 | 0 | = | 1 |
+| 0 | 1 | 0 | = | 1 |
+| 0 | 1 | 1 | = | 1 |
+| 1 | 1 | 0 | = | 1 |
+| 1 | 0 | 1 | = | 1 |
+
+# IIIa.L'expression booléenne simplifiée
 
 L = (pd+pg)+i
+
+# IIIa.L'expression booléenne simplifiée(Correction)
+
+P1 est `VRAI` si P2 est `VRAI` si P3 est `VRAI` et si P4 est `VRAI`
+
+`P1 = P2 + P3 + P4`
 
