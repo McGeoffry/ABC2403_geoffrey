@@ -45,5 +45,5 @@ P4 est BOOLEEN
 
 TRAITEMENT
 
-SI P est `VRAI` ET P4 est `VRA ALORS
+SI P est `VRAI` ET P4 est `VRAI` ALORS
 Ecrire 'La couleur est très claire
