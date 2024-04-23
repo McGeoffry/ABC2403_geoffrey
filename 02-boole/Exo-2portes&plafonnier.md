@@ -55,7 +55,7 @@ Le véhicule a les 2 portes avant fermées
 
 Le véhicule a l'interrupteur du plafonnier appuyé
 
-## Propositions 7
+## Proposition 7
 
 Le véhicule a les 2 portes avant ouvertes
 
