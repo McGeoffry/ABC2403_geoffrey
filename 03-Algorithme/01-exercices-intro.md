@@ -78,4 +78,3 @@ TRAITEMENT
     ECRIRE "La moyenne de", nombreUn", et", nombreDeux", est", moyenne"
 FIN SI
 ```
-
