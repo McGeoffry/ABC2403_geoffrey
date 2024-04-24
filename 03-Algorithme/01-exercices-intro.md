@@ -73,7 +73,7 @@ TRAITEMENT
     
     moyenne <-- (nombreUn + nombreDeux) / 2 
     
-    RESULTAT
+RESULTAT
     
     ECRIRE "La moyenne de", nombreUn", et", nombreDeux", est", moyenne"
 FIN SI
@@ -86,3 +86,36 @@ Lire le rayon R d’une sphère puis calculer et afficher :
 - Son volume = (4 π R³)/3
 
 `resultat <-- 4 * 3.14 POW(rayon, 3)`
+
+```
+ VARIABLE
+ numero est un NOMBRE ENTIER
+ 4 est un nombre REEL
+ π est un NOMBRE REEL
+ 3 est un NOMBRE REEL
+ resulatAire est un NOMBRE REEL
+ resultatVolume est un NOMBRE REEL
+
+ TRAITEMENT
+    ECRIRE "saisissez votre nombre"
+    LIRE nombre
+
+    resultatAire <-- 4 * 3.14 * (nombre²) 
+    resultatAire <-- 4 * 3.14 * POW(nombre, 2)
+
+    resultatVolume <-- 4 * 3.14 * (nombre³) / 3
+    resultatVolume <-- 4 * 3.14 * POW(nombre, 3) / 3
+
+RESULTAT
+SI
+resultatAire  
+    ECRIRE "l'aire de votre sphère", est", resulatatAire",
+SI
+resultatVolume
+    ECRIRE "le volume de votre sphère", est", resulatatVolume",
+    FIN SI 
+
+```
+# Exercice 1.5 : Calcul de la surface d’un secteur circulaire
+
+
