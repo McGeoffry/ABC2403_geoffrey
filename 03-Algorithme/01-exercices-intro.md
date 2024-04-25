@@ -1,3 +1,5 @@
+# POUR FACILITER LE DEROULEMENT DU PSEUDO CODE ==> ENUMERER LES ETAPES UNE PAR UNE
+
 # Exercice 1.1 : Hello World
 Ecrire un programme qui affiche “Hello World !”.
 
@@ -100,10 +102,10 @@ Lire le rayon R d’une sphère puis calculer et afficher :
     ECRIRE "saisissez votre nombre"
     LIRE nombre
 
-    resultatAire <-- 4 * 3.14 * (nombre²) 
+    resultatAire <-- 4 * 3.14 * nombre² 
     resultatAire <-- 4 * 3.14 * POW(nombre, 2)
 
-    resultatVolume <-- 4 * 3.14 * (nombre³) / 3
+    resultatVolume <-- 4/3 * 3.14 * nombre³
     resultatVolume <-- 4 * 3.14 * POW(nombre, 3) / 3
 
 RESULTAT
@@ -112,10 +114,68 @@ resultatAire
     ECRIRE "l'aire de votre sphère", est", resulatatAire",
 SI
 resultatVolume
-    ECRIRE "le volume de votre sphère", est", resulatatVolume",
+    ECRIRE "le volume de votre sphère est de : ",
+    LIRE resultatAire
     FIN SI 
 
 ```
 # Exercice 1.5 : Calcul de la surface d’un secteur circulaire
+Lire le rayon R d’un cercle et un angle A (en degré(s)).
 
+Calculer et afficher :
+
+L’ aire du secteur circulaire = (π R² A) / 360
+
+VARIABLE
+rayon est un NOMBRE ENTIER
+corner est un NOMBRE ENTIER
+π est un NOMBRE REEL
+surfaceSecteur est un NOMBRE REEL
+
+TRAITEMENT
+    ECRIRE "Saisissez votre rayon"
+    LIRE rayon
+    ECRIRE "Saisissez l'angle"
+    LIRE angle
+
+    surfaceSecteur <-- Math.PI * Mathpow(rayon²) * corner / 360
+
+RESULTAT
+surfaceSecteur
+ECRIRE "L'aire du secteur circulaire esr de: ", surfaceSecteur"
+FIN SI
+```
+```
+
+# Exercice 1.6 : Inversion de 2 valeurs
+
+1- Lire 2 nombres entier A et B.
+2- Afficher la valeur de A puis la valeur de B.
+3- Mettre le contenu de A dans B et celui de B dans A.
+4- Afficher à nouveau la valeur de A puis la valeur de B.
+
+
+VARIABLE
+
+nombreA est UN NOMBRE ENTIER
+nombreB est UN NOMBRE ENTIER
+
+TRAITEMENT
+    ECRIRE "Veuillez entrer votre nombre" 
+    LIRE le nombreA
+    ECRIRE "Veuillez entrer votre nombre"
+    LIRE le nombreB
+  
+    LIRE nombreB
+
+    LIRE nombreA
+
+    LIRE nombreB
+
+    LIRE nombreA
+
+
+
+
+```
 
