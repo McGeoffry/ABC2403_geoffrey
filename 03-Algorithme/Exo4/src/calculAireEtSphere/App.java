@@ -15,7 +15,7 @@ public class App {
 		
 		sc = new Scanner(System.in);
 		
-		System.out.println("Veuillez saisir votre rayon");
+		System.out.println("Veuillez saisir votre rayon: ");
 
 		nombre = sc.nextDouble();
 		
