@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class App {
 	
+	final static double P1 = 0.1;
+	final static double P2 = 0.09;
+	final static double P3 = 0.08;
+	
 
 
 	public static void main(String[] args) {
@@ -16,15 +20,15 @@ public class App {
 		nbc = sc.nextInt();
 		
 	if (nbc <= 10) {
-		facture = nbc * 0.09;
+		facture = nbc * App.P1;
 	}
 	
 	else if (nbc <= 30) {
-		facture = 10 * 0.10 + (nbc - 30) * 0.08;
+		facture = 10 * App.P1 + (nbc - 30) * App.P2;
 	}
 	
 	else {
-		facture = 10 * 0.10 + 20 * 0.09 + (nbc - 30) * 0.08;		
+		facture = 10 * App.P1 + 20 * App.P2 + (nbc - 30) * App.P3;		
 	}
 	
 	
