@@ -15,9 +15,32 @@ Vétéran : 35 ans et +
 ```
 VARIABLE
 
+age est un NOMBRE REEL
 
 
 TRAITEMENT
+
+	ECRIRE "saisir l'age souhaité"
+	LIRE age
+SI age < 5 ALORS
+	ECRIRE "Il appartient à la catégorie 'trop jeune'"
+SI age <= 6 ALORS
+	ECRIRE "Il appartient à la catégorie 'débutant'"
+SI age <= 8 ALORS
+	ECRIRE "Il appartient à la catégorie 'poussin'"
+SI age <= 10 ALORS
+	ECRIRE "Il appartient à la catégorie 'benjamin'"
+SI age <= 12 ALORS
+	ECRIRE "Il appartient à la catégorie 'pupille'"
+SI age <= 14 ALORS
+	ECRIRE "Il appartient à la catégorie 'minime'"
+SI age <= 16 ALORS
+	ECRIRE "Il appartient à la catégorie 'cadet'"
+SI age <= 18 ALORS
+	ECRIRE "Il appartient à la catégorie 'sénior'"
+SINON
+	ECRIRE "Il appartient à la catégorie 'vétéran'"
+FIN SI
 
 
 
