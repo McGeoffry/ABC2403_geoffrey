@@ -24,7 +24,7 @@ public class App {
 	}
 	
 	else if (nbc <= 30) {
-		facture = 10 * App.P1 + (nbc - 30) * App.P2;
+		facture = 10 * App.P1 + (nbc - 10) * App.P2;
 	}
 	
 	else {
@@ -32,7 +32,7 @@ public class App {
 	}
 	
 	
-	System.out.println("A payer "+ facture + "€");
+	System.out.println("A payer: "+ facture + "€.");
 	
 	
 	sc.close();
