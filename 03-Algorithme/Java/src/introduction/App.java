@@ -25,6 +25,7 @@ public class App {
 		
 		double tailleEnMettrePourLesPlusGrands; // Déclaration d'une variable "tailleEnMettrePourLesPlusGrands" de type 'Nombre réel 64 bites" (valeur scolaire)
 		
+
 		Boolean estMajaur; // Déclaration d'une variable "estMajeur" de type "Boolean" (valeur scolaire)
 		
 		
