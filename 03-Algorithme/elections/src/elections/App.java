@@ -23,23 +23,18 @@ public class App {
 		System.out.println("Score du candidat N°4");
 		candidat4 = sc.nextInt();
 		
-		if(candidat1 > 50) {
+		if(candidat1 > 50 ) {
 			System.out.println("Candidat élu au 1er tour");
 		}
 		if(candidat1 < 12.5) {
 			System.out.println("Candidat battu");
 		}
 		
-		else if(candidat1 < candidat2) {
+		else if(candidat1 < 50 | candidat1 > candidat2 | candidat1 > candidat3 | candidat1 > candidat4) {
 			System.out.println("candidat en ballottage défavorable");
 		}
-		else if(candidat1 < candidat3) {
-			System.out.println("candidat en ballottage défavorable");
-		}
-		else if(candidat4 > candidat1) {
-			System.out.println("candidat en ballottage défavorable");
-		}
-		else {
+	
+		else if(candidat1 > 50 | candidat1 > candidat2 | candidat1 > candidat3 | candidat1 > candidat4) {
 			System.out.println("Candidat en ballottage favorable");
 		}
 	
