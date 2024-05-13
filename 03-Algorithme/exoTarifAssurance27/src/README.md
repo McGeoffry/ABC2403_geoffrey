@@ -18,17 +18,31 @@ Ecrire l’algorithme permettant de saisir les données nécessaires (sans contr
 VARIABLE 
 ansPermis est un NOMBRE ENTIER
 age est un NOMBRE ENTIER
-bleu est un NOMBRE ENTIER
-vert est un NOMBRE ENTIER
-orange est un NOMBRE ENTIER
-rouge est un NOMBRE ENTIER
 accident est un ENTIER
 
 TRAITEMENT
+SI 
+ansPermis <= 2 ET age < 25 ET accident = 0 )ALORS
+ECRIRE "Vous êtes au tarif rouge"
+SINON SI
+(ansPermis > 2 ET age < 25) OU ( age > 25 ET ansPermis <= 2 Et accident = 0) ALORS
+ECRIRE  "Vous êtes au tarif orange"
+SINON SI
+(ansPermis > 2 ET age < 25) OU ( age > 25 ET ansPermis <= 2 Et accident = 1) ALORS
+SINON
+ECRIRE "Vous êtes refusé"
+SINON SI
+(ans Permis > 2 ET age > 25 ET accident = 0) ALORS
+ECRIRE "Vousêtes au tarif vert"
+SINON SI
+(ans Permis > 2 ET age > 25 ET accident = 1) ALORS
+ECRIRE "Vousêtes au tarif orange"
+SINON SI
+(ans Permis > 2 ET age > 25 ET accident = 2) ALORS
+ECRIRE "Vous êtes au tarif rouge"
+SINON
+ECRIRE "Vous êtes refusé" 
 
-rouge <--  (age < 25 ET ansPermis < 2)
-orange <-- (age > 25 ET ansPermis > 2) OU (age > 25 ET ansPermis < 2)
-vert <-- (age > 25 ET ansPermis > 2) 
 
 RESULTAT
 
