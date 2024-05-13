@@ -30,15 +30,14 @@ public class App {
 			System.out.println("Candidat battu");
 		}
 		
-		else if(candidat1 < 50 | candidat1 > candidat2 | candidat1 > candidat3 | candidat1 > candidat4) {
-			System.out.println("candidat en ballottage défavorable");
+		else if(candidat1 < 50 || candidat1 > candidat2 | candidat1 > candidat3 | candidat1 > candidat4) {
+			System.out.println("Candidat élu au second tour mais en ballottage défavorable");
 		}
 	
-		else if(candidat1 > 50 | candidat1 > candidat2 | candidat1 > candidat3 | candidat1 > candidat4) {
-			System.out.println("Candidat en ballottage favorable");
+		else if(candidat1 > 50 || candidat1 > candidat2 | candidat1 > candidat3 | candidat1 > candidat4) {
+			System.out.println("Candidat élu au second tour mais en ballottage favorable");
 		}
 	
-		
 			
 		
 		sc.close();
