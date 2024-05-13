@@ -37,9 +37,9 @@ RESULTAT
 
 SI score > 50 ALORS
 ECRIRE "Candidat élu au 1er tour"
-SI score > 12.5 ALORS
+SINON IF score > 12.5 ALORS
 ECRIRE "Candidat battu"
-SI candidat1 > candidat2, candidat3, candidat4 ALORS
+SINON SIU candidat1 > candidat2, candidat3, candidat4 ALORS
 ECRIRE "Candidat en ballottage favorable
 SINON
 ECRIRE "Candidat en ballottage défavorable" 

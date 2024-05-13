@@ -26,7 +26,7 @@ public class App {
 		if(candidat1 > 50 ) {
 			System.out.println("Candidat élu au 1er tour");
 		}
-		if(candidat1 < 12.5) {
+		else if(candidat1 < 12.5) {
 			System.out.println("Candidat battu");
 		}
 		
@@ -39,9 +39,7 @@ public class App {
 		}
 	
 		
-		
-		
-		
+			
 		
 		sc.close();
 	}
