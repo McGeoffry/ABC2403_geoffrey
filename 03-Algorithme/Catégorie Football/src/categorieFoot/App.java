@@ -7,43 +7,48 @@ public class App {
 	public static void main(String[] args) {
 		
 		int age;
+		String categorie;
 		Scanner sc = new Scanner(System.in);
 	
+		System.out.println("Catégorie Football");
+		System.out.println("");
 		
-		System.out.println("Saisir l'age souhaité");
+		
+		System.out.println("Saisissez votre age");
 		age = sc.nextInt();
 		
 		if(age < 5) {
-			System.out.println("Il appartient à la catégorie 'trop jeune'");
+			categorie = "trop jeune";
 		}
 		else if(age <= 6) {
-			System.out.println("Il appartient à la catégorie 'débutant'");
+			categorie = "débutant";
 		}
 		else if(age <= 8) {
-			System.out.println("Il appartient à la catégorie 'poussins'");
+			categorie = "poussin";
 		}
 		else if(age <= 10) {
-			System.out.println("Il appartient à la catégorie 'benjamin'");
+			categorie = "benjamin";
 		}
 		else if(age <= 12) {
-			System.out.println("Il appartient à la catégorie 'pupille'");
+			categorie = "pupille";
 		}
 		else if(age <= 14) {
-			System.out.println("Il appartient à la catégorie 'minime'");
+			categorie = "minime";
 		}
 		else if(age <= 16) {
-			System.out.println("Il appartient à la catégorie 'cadet'");
+			categorie = "cadet";
 		}
 		else if(age <= 18) {
-			System.out.println("Il appartient à la catégorie 'sénior'");
+			categorie = "junior";
+		}
+		else if(age <= 34) {
+			categorie = "sénior";
 		}
 		else{
-				System.out.println("Il appartient à la catégorie 'vétéran'");
+			categorie = "vétéran";
 			}
-
-		
-		
-		
+		System.out.println("Votre catégorie est " + categorie +".");
+				
 		
 		sc.close();
 		
