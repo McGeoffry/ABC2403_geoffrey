@@ -13,8 +13,7 @@ public class Boucle {
 		i = sc.nextInt();
 		
 		while (i < 1 || i > 3) {
-			System.out.println("Saisissez un chiffre entre 1 et 3 : " );
-			i = sc.nextInt();
+			System.out.println("Saisissez un chiffre entre 1 et 3 : " );		
 		}
 		
 		System.out.println("Bravo, vous avez réussi !.");
