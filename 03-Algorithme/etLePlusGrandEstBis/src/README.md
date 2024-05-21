@@ -13,7 +13,8 @@ max est un NOMBRE ENTIER
 
 TRAITEMENT
 
-ECRIRE "Saisissez un nombre(0 pour arrêter"
+ECRIRE "Saisissez un nombre(0 pour arrêter)"
+
 
 
 FIN

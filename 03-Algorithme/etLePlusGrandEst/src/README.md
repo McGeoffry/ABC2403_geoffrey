@@ -15,7 +15,7 @@ nombre est un NOMBRE ENTIER
 
 
 ECRIRE "saisissez 20 nombres "
-POUR saisie = 1 ; saisie <= 20 
+POUR saisie = 1 ; saisie <= 20; saisie++
 ECRIRE "nombre "+ saisie + ": "
 SI nombre > leNombreMax ALORS
 LeNombreMax = nombre
