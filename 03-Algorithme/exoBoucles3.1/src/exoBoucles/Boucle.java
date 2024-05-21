@@ -7,12 +7,12 @@ public class Boucle {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in); 
-		int i;
+		int saisie;
 
 		System.out.println("Saisissez un chiffre entre 1 et 3 : " );
-		i = sc.nextInt();
+		saisie = sc.nextInt();
 		
-		while (i < 1 || i > 3) {
+		while (saisie < 1 || saisie > 3) {
 			System.out.println("Saisissez un chiffre entre 1 et 3 : " );		
 		}
 		
