@@ -19,7 +19,7 @@ nbDepart est un NOMBRE ENTIER
 ## TRAITEMENT
 
 ECRIRE "Saisissez un nombre"
-TANT QUE saisie <= 10 ALORS
+POUR saisie <= 10 ALORS
 ECRIRE "Les 10 nombres apres " + nbDepart + saisie + " " 
 saisie++
 
