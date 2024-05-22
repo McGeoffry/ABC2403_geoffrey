@@ -8,7 +8,8 @@ public class Boucles {
 		Scanner sc = new Scanner(System.in);
 		
 		int nombre;
-		int nombreMax = Integer.MIN_VALUE; // Initialiser le maximum avec la valeur minimale possible pour un entier
+		// Initialiser le maximum avec la valeur minimale possible pour un entier
+		int nombreMax = Integer.MIN_VALUE; 
 		
 		
 		// Demander des nombres à l'utilisateur jusqu'à ce qu'il entre 0
