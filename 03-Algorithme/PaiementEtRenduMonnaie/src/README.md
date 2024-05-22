@@ -27,17 +27,30 @@ Répartition de la monnaie à restituer au client :
 VARIABLE
 
 prix est un REEL 
-billets5€ est un ENTIER 
+billets5 est un ENTIER 
 nbBillets est un ENTIER 
 total est un REEL 
-piecesRendues est un REEL 
+rendu est un REEL 
+pieces est un ENTIER
+
 
 TRAITEMENT
 
 ECRIRE saisissez un prix
-FAIRE
-prix != 0 ALORS
-ECRIRE "saisissez un autre prix" + prix
+LIRE prix
+SI prix != 0 ALORS
+total <-- total + billets5
+SINON 
+FIN boucle
+
+rendu <-- billets5 * 5
+ECRIRE "le total est " + total + "€"
+ECRIRE "Le client doit donner " + billets5 + "billets de 5€"
+nbBillets <-- billets5 * 5
+
+
+
+
 
 
 ```
