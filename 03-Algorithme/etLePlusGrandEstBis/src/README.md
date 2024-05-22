@@ -9,13 +9,19 @@ VARIABLE
 
 saisie est un NOMBRE ENTIER
 nombre est un NOMBRE ENTIER
-max est un NOMBRE ENTIER
+nombreMax est un NOMBRE ENTIER
 
 TRAITEMENT
 
 ECRIRE "Saisissez un nombre(0 pour arrêter)"
+LIRE nombre
+FAIRE
+SI nombre > nombreMax ALORS
+nombreMax = nombre
 
-
+TANT QUE
+nombre != 0 ALORS
+ECRIRE "Le plus grand nombre est: " + nombreMax
 
 FIN
 

@@ -26,13 +26,18 @@ Répartition de la monnaie à restituer au client :
 ```
 VARIABLE
 
-prix est un ENTIER
-somme est un REEL
-
+prix est un REEL 
+billets5€ est un ENTIER 
+nbBillets est un ENTIER 
+total est un REEL 
+piecesRendues est un REEL 
 
 TRAITEMENT
 
-
+ECRIRE saisissez un prix
+FAIRE
+prix != 0 ALORS
+ECRIRE "saisissez un autre prix" + prix
 
 
 ```
