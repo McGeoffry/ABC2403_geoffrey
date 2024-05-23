@@ -10,7 +10,7 @@ public class Fibanocci {
 		
 		System.out.println("Suite de Fibonacci. Combien de nombre de la suite voulez vous afficher ?");
 		int n = sc.nextInt();
-		
+	
 		int position = 2;
 		String resultat;
 		double nbPrecedent;
