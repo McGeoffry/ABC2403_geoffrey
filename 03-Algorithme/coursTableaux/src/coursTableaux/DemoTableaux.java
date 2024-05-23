@@ -28,6 +28,7 @@ public class DemoTableaux {
 		/*
 		POUR i de 0 à longueur(tableau), incrementer= i++ et .length --> longueur
 		*/
+		
 		for(int i = 0; i < tableau.length; i++) {
 			System.out.println("Element" + i + "de tableau = " + tableau[i]);
 			

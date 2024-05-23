@@ -15,7 +15,7 @@ public class PaiementEtRendu {
 		double total;
 		double rendu;
 		
-		System.out.println("Saisissez un prix");
+		System.out.println("Saisissez vos prix");
 		prix = sc.nextInt();
 		if (prix != 0) {
 			billets5 = sc.nextInt();
