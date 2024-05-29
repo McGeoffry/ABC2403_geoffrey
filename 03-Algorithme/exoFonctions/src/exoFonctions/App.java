@@ -33,6 +33,7 @@ public class App {
 	public static void calculerMoyenne(int[] tableau) {
 		int somme;
 		float moyenne;
+		somme = 0;
 		
 		for(int i = 0; i < tableau.length; i++) {
 			//somme = somme + tableau[i];
