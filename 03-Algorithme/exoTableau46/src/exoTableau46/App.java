@@ -15,7 +15,8 @@ public class App {
 		for(int i = 0; i < tableau1.length; i++) {
 			
 			for (int j = 0; j < tableau2.length; j++) {
-				resultat += tableau1[i] * tableau2[j];		
+				resultat += tableau1[i] * tableau2[j];	
+				System.out.println(resultat);
 				}
 		}
 }
