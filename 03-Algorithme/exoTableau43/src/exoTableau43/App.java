@@ -15,11 +15,12 @@ public class App {
 		nbValeurs = sc.nextInt();
 		System.out.println("Saisissez le nombre de valeurs: " );
 		
-			while( nbValeurs != nbValeurs) {
+			if( nbValeurs != nbValeurs) {
 				System.out.println("Saisissez une autre valeur: ");
 			}
-		
-		
+			else {
+				
+			}
 		
 		
 		sc.close();
