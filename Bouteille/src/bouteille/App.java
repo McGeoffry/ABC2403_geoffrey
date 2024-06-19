@@ -7,6 +7,12 @@ public class App {
 	}
 
 	public class Bouteille {
+		private String nom;
+		private Date dateCreation;
+		
+	public Livre chercherLivre(ISBN isbn) {
+			
+		}
 		
 	}
 	
