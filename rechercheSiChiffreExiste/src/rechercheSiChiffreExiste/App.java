@@ -20,9 +20,9 @@ public class App {
 		
 		boolean trouve = false;
 		int i = 0;
-		while(i <= chiffreRecherche) {
-			  
-		i++;
+		while(i < tab.length && !trouve); {
+		
+		trouve = true;
 		i++;
 		
 		}
