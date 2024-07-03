@@ -34,6 +34,8 @@ public class Bouteille {
 	}
 
 	public boolean estPleine() {
+		boolean pleine;
+		if(this.contenuEnL == this.contenanceEnL);
 	
 	}
 	
